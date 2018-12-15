@@ -1,0 +1,37 @@
+.headerBackground {
+    background-color: black;
+}
+
+/*stylowanie elemantow headera*/
+.headerRightElement, .headerLeftElement {
+    display: inline-block;
+    padding:5px;
+    color:white;
+}
+
+/*Float elemantów headera*/
+.headerLeftElement {
+    float: left;
+}
+
+.headerRightElement {
+    float: right;
+    margin-right: 11px;
+    width: 285px;
+
+}
+
+/*navigation item ustawienie inline block menu*/
+.navigationItem {
+    display: inline-block;
+
+}
+
+.navigationList {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+

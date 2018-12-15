@@ -1,0 +1,19 @@
+/*reset ustawień css*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*kontrola szerokości strony, tak powinien wygladac kontener*/
+.widthControl {
+    margin: 0 auto;
+    width: 1076px;
+}
+
+/*clearfixy by zatrzymac floaty tylko na elementach gdzie sa zdefiniowane*/
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
